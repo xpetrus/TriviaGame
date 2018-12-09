@@ -1,7 +1,37 @@
 h1{
     margin-bottom: 50px;
+    color:white;
+    font-family: 'Bungee', cursive;
 }
 
 .jumbotron{
+    background: #FFB75E;  /* fallback for old browsers background from uigradients.com */
+    background: -webkit-linear-gradient(to bottom, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
     margin-top:50px;
+}
+
+.aS{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-right: 3px;
+}
+
+.item{
+    margin-right: 10px;
+}
+
+#timeLeft{
+    margin-top: -40px;
+}
+
+body{
+    background: -webkit-linear-gradient(to right, #fd746c, #ff9068); /* background from uigradients.com*/
+    background: linear-gradient(to right, #fd746c, #ff9068);
+    color:white;
 }
